@@ -12,7 +12,7 @@ Este programa tem como objetivo registrar um usuário. Ele deve receber e valida
 Fluxo:
 O usuário acessa a interface, preenche os dados citados.
 O programa realiza as seguintes validações:
-1. Email é válido (ter pelo menos 10 caracteres, ter um caractere “@”, ter pelo menos um caracter antes do @ e pertencer aos domínios “capgemini.com” ou “bradesco.com”
+1. Email é válido (ter pelo menos 10 caracteres, ter um caractere “@”, ter pelo menos um caracter antes do @ e pertencer aos domínios “capgemini.com” ou “bradesco.com”)
 2. Nome com pelo menos duas palavras
 3. Senha com pelo menos 8 caractesres, 1 número, 1 letra maiúscula, 1 letra minúscula e um caracter especial
 4. Telefone com no mínimo 11 caracteres e maximo 12 caracteres. Ex: (999999999999).
