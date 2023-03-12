@@ -16,6 +16,4 @@ O programa realiza as seguintes validações:
 2. Nome com pelo menos duas palavras
 3. Senha com pelo menos 8 caractesres, 1 número, 1 letra maiúscula, 1 letra minúscula e um caracter especial
 4. Telefone com no mínimo 11 caracteres e maximo 12 caracteres. Ex: (999999999999).
-Caso algum dos campos esteja inválido, o programa deve apresentar um erro e uma sugestão de correção ao usuário. Em caso de sucesso, o programa chama o módulo de geração de ID e registra o usuário, indexado pelo id gerado. Ex:
-ID      nome          email                         phone
-0001    Carlos        carlos@capgemini.com          756666666666
+Caso algum dos campos esteja inválido, o programa deve apresentar um erro e uma sugestão de correção ao usuário. Em caso de sucesso, o programa chama o módulo de geração de ID e registra o usuário, indexado pelo id gerado.
