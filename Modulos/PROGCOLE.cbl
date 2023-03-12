@@ -240,12 +240,15 @@
            DISPLAY '|                                                 |'
            DISPLAY '| - NO MAXIMO, 13 DIGITOS                         |'
            DISPLAY '| - NO MINIMO, 11 DIGITOS;                        |'
+           DISPLAY '| - DOIS DIGITOS PARA DDI                         |'
+           DISPLAY '| - DOSI DIGOTOS PARA DDD                         |'
            DISPLAY '***************************************************'
            DISPLAY 'INSIRA UM NUMERO DE TELEFONE' ACCEPT WS-TL
            DISPLAY ' '
 
-           INSPECT WS-TL TALLYING CONT1 FOR CHARACTERS BEFORE SPACE 
-           DISPLAY CONT1
+           INSPECT WS-TL TALLYING CONT1 FOR ALL '0',ALL'1',ALL '2',
+           ALL '3',ALL '4', ALL '5',ALL '6',ALL '7',ALL '8',ALL '9',
+           BEFORE SPACE 
 
            IF CONT1 >= 11 AND <= 13
                DISPLAY 'TELEFONE VALIDO'
